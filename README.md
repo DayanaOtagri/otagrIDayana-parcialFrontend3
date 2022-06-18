@@ -12,4 +12,3 @@ Aquí pueden ver una demo del funcionamiento de la aplicación.
 
 
 # otagrIDayana-parcialFrontend3
-# otagriDayana-parcialFrontend3
