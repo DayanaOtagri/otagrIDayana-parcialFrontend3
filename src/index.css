@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Noto+Sans+KR&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  background-color: #34D3DB;
+  padding: 40px 40px;
+  text-align: right;
+}
+header h1{
+  margin-bottom: 10px;
+}
+
+header p span {
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+  display: flexbox;
+  position: relative;
+  top: -12px;
+  right: 45px;
+}
+
+.container {
+  padding: 70px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.producto {
+  border: 0.5px solid #ddd;
+  padding: 20px;
+  width: 33%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.producto img{
+  width: 200px;
+}
+.producto h5{
+  text-align: center;
+}
+
+.producto h5 span{
+  padding: 3px;
+  font-weight: lighter;
+  color: red;
+  border-radius: 3px;
+  font-size: 150%;
+}
+.producto button{
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.carrito{
+  font-size: 250%;
+  display: flexbox;
+  position: relative;
+  top:10px;
+}
+
